@@ -1,0 +1,105 @@
+
+协议：多个类（不同类）共同的方法  的抽取
+
+A类 用 B类（组合）， 对B类，进得方法限定，指定B类，要有某些方法（有实现，就调用）；
+A类 <结合> B类，（表示A类有B类）当A 类要调用B类的方法时，  self.name  = B类 对象 (在A类中 通过 B对象 调用B 方法)
+
+ 代理：
+ 	A类把方法抽出，写成协议，在A类中有调用协议的方法 
+ 	//协议对类形的限定 	而执行为其属性类（其它类去执行）
+ 	（self.name / self.delegate ）取 组合对象，去调用执行的方法。（被的代理方法）
+ 	 被代理的方法   为 成员 去执行的方法 
+ 	 属性相当于车轮子，协议：当车进入轮子时，要调用的方法。
+
+
+
+Application 
+	|
+	v	
+	代理--> AppDelegate  属性--> UIWindow --> UIViewController *rootViewController 
+
+÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷
+
+
+UI
+	UIScrollView
+	UITableView 
+	
+	UICollectionView
+	
+	UI架构
+	UITabbarController
+	UINavigationController
+	UIViewController
+	
+	传值:
+	正向传值
+	代理
+	Block
+	通知
+	//单例
+******************* Quest
+
+
+
+网络
+   接口  (Http网址: HTTP协议)
+1, NSURLConnection
+2, NSURLSession
+3, AFNetworking, (ASIHttpRequest:一个比较早的网络框架) JSONModel
+4, 断点续传,上下拉刷新
+5, 数据库FMDB
+
+6, CoreData
+7, iPad编程, Socket通讯
+8, 多媒体
+9, 多线程
+10, 地图
+11, 屏幕适配
+
+******************* Quest
+
+Quest	Question
+<!-- 	C    -->
+    char *_color;
+
+<!-- 	OC    -->
+    CGRect
+    懒加载
+
+    XML解析
+    	节点
+
+   cell
+
+<!-- 	UI    -->
+
+
+
+<!-- 	Net    -->
+
+
+
+<!-- Projects  -->
+
+
+UISplitViewController
+UIPopverController、
+
+
+
+	往storyboard中添加控件
+	UIViewController和UIView的关系
+	程序的运行过程
+	IBAction、IBOutlet的作用
+	如何监听控件的事件（比如按钮的点击事件）
+	父控件和子控件的概念
+
+ 箭头所指storyboard UIViewController的真实类型是CZViewController
+ storyboard xib 生成 视图代码。放到对应 的 控制器上 
+ storyboard 只是一个能生成 视图的文件。 
+
+
+随时监测市场
+
+
